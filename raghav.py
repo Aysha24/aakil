@@ -1,3 +1,4 @@
+N=int(input("enter the number:"))
 def printRepeating(arr, size):
  
     print("Repeating elements are ",
