@@ -1,10 +1,10 @@
-x=int(input("enter a number:"))
-y=int(input("enter a number:"))
+i=int(input("enter a number:"))
+r=int(input("enter a number:"))
 d=0
-for i in range(x,y+1):
-  if i>1:
-    for j in range(2,i):
-      if(i%j)==0:
+for m in range(i,r+1):
+  if m>1:
+    for k in range(2,m):
+      if(m%k)==0:
         break
       else:
         d+=1
