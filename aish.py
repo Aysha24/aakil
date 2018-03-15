@@ -1,10 +1,10 @@
-n =int(input("Enter the number:\n"))
+x =int(input("Enter the number:\n"))
 k=int(input("Enter the digit to remove:\n"))
-m= int(str(n)[:-k])
+m= int(str(x)[:-k])
 print(m)
 def smallest(lst):
-    for i,n in enumerate(lst):
-        if n != '0':
+    for i,x in enumerate(lst):
+        if x != '0':
             tmp = lst.pop(i)
             break
     return str(tmp) + ''.join(lst)
