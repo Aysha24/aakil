@@ -1,6 +1,6 @@
 list=[]
-num=int(input("enter many numbers:"))
+num=int(input())
 for n in range(num):
-  numbers=int(input("enter a number:"))
+  numbers=int(input())
   list.append(numbers)
 print(min(list))
