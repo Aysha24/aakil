@@ -1,6 +1,6 @@
 n=input("enter string:")
-space=0
+dig=0
 for i in n:
   if(i.isdigit()):
-    space=space+1
-print(space)
+    dig=dig+1
+print(dig)
