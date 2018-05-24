@@ -1,5 +1,5 @@
-x=float(input("enter a number:"))
+x=float(input())
 if x%2==0:
-	print("the number is even")
+	print("even")
 else:
-	print("the number is odd")
+	print("odd")
